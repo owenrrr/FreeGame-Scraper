@@ -1,5 +1,5 @@
 ## Automated Fetch Steam Free Games Script
-
+A lighteight script to grab steam free games from SteamDB. You can integrate the script within your pipeline/cron jobs.
 ### Windows
 ```bash
 # Use virtual env
