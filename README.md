@@ -1,6 +1,8 @@
 ## Automated Fetch Steam Free Games Script
 A lighteight script to grab steam free games from SteamDB. You can integrate the script within your pipeline/cron jobs.
-### Windows
+
+
+### Installation: Windows
 ```bash
 # Use virtual env
 python -m venv myvenv
@@ -19,7 +21,7 @@ python .\fetch_v2.py
 deactivate
 ```
 
-### Linux/Mac OS
+### Installation: Linux/Mac OS
 ```bash
 # Use virtual env
 python -m venv myvenv
@@ -37,3 +39,6 @@ python fetch_v2.py
 # quit virtual env
 deactivate
 ```
+
+### Be aware
+Currently, `fetch_v3.py` is the stable one.

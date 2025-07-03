@@ -1,4 +1,3 @@
 bs4
-playwright
 undetected_chromedriver
 setuptools
