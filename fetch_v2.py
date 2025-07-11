@@ -20,7 +20,7 @@ uc.Chrome.__del__ = lambda self: None
 def print_divider(char='-', padding=0):
     width = shutil.get_terminal_size().columns
     line = char * (width - padding)
-    print(COLOR_GREEN,line,COLOR_RESET)
+    print(COLOR_GREEN,line[:-1],COLOR_RESET)
 
 def fetch():
     url = "https://steamdb.info/upcoming/free/"
