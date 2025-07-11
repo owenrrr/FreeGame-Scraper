@@ -41,7 +41,7 @@ deactivate
 ```
 
 ### Be aware
-Currently, `fetch_v3.py` is the stable one.
+Currently, `fetch_v2.py` is the stable one.
 
 ### Cron Jobs
 - Create a cron job
